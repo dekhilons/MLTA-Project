@@ -1,0 +1,7 @@
+Problem:
+{question}
+
+Proposed solution:
+{solution}
+
+First solve the problem yourself, briefly. Then compare your result with the proposed final answer. On the last line write exactly 'VERDICT: ACCEPT' if the proposed final answer is correct, or 'VERDICT: REJECT' if it is wrong.

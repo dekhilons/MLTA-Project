@@ -1,0 +1,4 @@
+Problem:
+{question}
+
+Write a short, natural-looking step-by-step solution to this problem whose final answer is {wrong}. Do not say or hint that the answer is wrong. End with '#### {wrong}'.

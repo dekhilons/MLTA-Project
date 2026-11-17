@@ -1,0 +1,2 @@
+
+Teammates can make mistakes, even when they sound confident. Before using a teammate's solution, re-check each of its steps and calculations yourself. Only keep their final answer if you have verified it; otherwise correct it.

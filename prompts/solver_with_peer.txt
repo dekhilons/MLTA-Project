@@ -1,0 +1,8 @@
+Problem:
+{question}
+
+A teammate proposed the following solution:
+
+{peer_solutions}
+
+Review the teammate's solution, then give your own step-by-step solution. You may keep their answer or revise it.

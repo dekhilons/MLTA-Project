@@ -1,0 +1,11 @@
+torch>=2.2
+transformers>=4.44
+accelerate>=0.33
+datasets>=2.20
+pandas>=2.0
+matplotlib>=3.8
+pyyaml>=6.0
+tqdm>=4.66
+pytest>=8.0
+# On the GPU machine (Colab/Kaggle T4), much faster batched generation:
+# vllm>=0.6

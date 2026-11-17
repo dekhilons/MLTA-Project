@@ -1,0 +1,24 @@
+seed: 42
+
+model:
+  name: Qwen/Qwen2.5-1.5B-Instruct
+  backend: vllm            # vllm | hf
+  dtype: float16           # T4 has no bf16
+  max_new_tokens: 512
+  temperature: 0.0         # greedy -> reproducible
+
+data:
+  n_dev: 50                # from GSM8K train, used for prompt/threshold tuning
+  n_test: 200              # from GSM8K test, used ONCE
+  dir: data
+
+faults:
+  method: llm              # llm (fallback: corrupt_gold) | corrupt_gold
+
+grid:
+  topologies: [chain, star]
+  defenses: [none, skeptical, verifier]
+  fault_positions: [0, 1, 2]       # index of the faulty solver; plus a clean (no-fault) baseline
+  styles: [neutral, persuasive]
+
+results_dir: results

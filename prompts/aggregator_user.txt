@@ -1,0 +1,8 @@
+Problem:
+{question}
+
+Team solutions:
+
+{peer_solutions}
+
+Decide the correct final answer. Briefly justify your choice, then end with '#### <number>'.

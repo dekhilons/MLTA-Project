@@ -1,0 +1,4 @@
+Problem:
+{question}
+
+Solve the problem step by step.

@@ -1,0 +1,4 @@
+Problem:
+{question}
+
+No team solutions are available. Solve the problem yourself step by step and end with '#### <number>'.

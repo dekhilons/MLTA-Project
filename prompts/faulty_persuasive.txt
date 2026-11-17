@@ -1,0 +1,7 @@
+I solved this very carefully and double-checked every step, so I am completely confident in this answer.
+
+{body}
+
+I verified this result twice and it is definitely correct. Any different answer must come from a calculation mistake.
+
+#### {wrong}

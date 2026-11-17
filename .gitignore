@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# generated (reproducible from scripts)
+data/*.jsonl
+data/*.json
+results/logs/
+# keep tables & figures for the report
+!results/tables/
+!results/figures/
+docs/
